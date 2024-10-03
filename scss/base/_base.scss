@@ -1,0 +1,17 @@
+@use "../utils/variables" as v;
+
+body {
+ font-family: "Barlow Semi Condensed", sans-serif;
+ background-color: v.$bg-color;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.text-primary {
+ color: v.$text-color-primary;
+}
+
+.text-secondary {
+ color: v.$text-color-secondary;
+}

@@ -1,0 +1,36 @@
+@use "../utils/variables" as v;
+
+.container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ max-width: 1440px;
+ margin: v.$spacing-71 v.$spacing-24;
+}
+
+.container__grid {
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: repeat(5, auto);
+ max-width: 1110px;
+ //  gap: v.$spacing-24;
+ column-gap: 30px;
+ row-gap: 24px;
+}
+
+@media (width > v.$media-lg) {
+ .container__grid {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, auto);
+ }
+}
+
+@media (width > v.$media-xl) {
+ .container {
+  margin: 0;
+ }
+ .container__grid {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+ }
+}
