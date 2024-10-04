@@ -26,11 +26,11 @@ $spacing-16: f.to_rem(16px);
 $spacing-17: f.to_rem(17px);
 $spacing-18: f.to_rem(18px);
 $spacing-24: f.to_rem(24px);
-$spacing-25: f.to_rem(25px);
+// $spacing-25: f.to_rem(25px);
 $spacing-26: f.to_rem(26px);
 $spacing-31: f.to_rem(31px);
 $spacing-32: f.to_rem(32px);
-$spacing-34: f.to_rem(34px);
+// $spacing-34: f.to_rem(34px);
 $spacing-71: f.to_rem(71px);
 
 /* Declaring colors for site elements */
@@ -43,8 +43,6 @@ $image-border-primary: $light-violet;
 $image-border-secondary: $moderate-violet;
 $text-color-primary: $white;
 $text-color-secondary: $very-dark-grayish-blue;
-// 1. "Verified Graduate" has the same color as the person's name with 50% opacity
-// 2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
 
 /* media */
 $media-lg: f.to_rem(700px);
