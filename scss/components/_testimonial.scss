@@ -70,7 +70,6 @@
  font-weight: v.$f-500;
  line-height: 1.2;
  margin-bottom: 1px;
- //  margin-bottom: 1.4px;
 }
 
 .testimonial__status {
@@ -88,14 +87,13 @@
  font-size: v.$f-size-lg;
  font-weight: v.$f-600;
  line-height: 1.2;
- //  letter-spacing: 0.05px;
+ letter-spacing: 0px;
 }
 
 .testimonial__description {
  margin-top: 16px;
  opacity: 0.7;
  line-height: 1.38;
- //  line-height: 18px;
  font-size: v.$f-size-md;
  font-weight: v.$f-500;
  text-wrap: pretty;
