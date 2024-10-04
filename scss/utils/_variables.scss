@@ -22,14 +22,16 @@ $border-radius: f.to_rem(8px);
 
 /*spacing values (for margin, padding,gap)*/
 
-$spacing-16: 16px;
-$spacing-17: 17px;
-$spacing-18: 18px;
-$spacing-24: 24px;
-$spacing-25: 25px;
-$spacing-32: 32px;
-$spacing-34: 34px;
-$spacing-71: 71px;
+$spacing-16: f.to_rem(16px);
+$spacing-17: f.to_rem(17px);
+$spacing-18: f.to_rem(18px);
+$spacing-24: f.to_rem(24px);
+$spacing-25: f.to_rem(25px);
+$spacing-26: f.to_rem(26px);
+$spacing-31: f.to_rem(31px);
+$spacing-32: f.to_rem(32px);
+$spacing-34: f.to_rem(34px);
+$spacing-71: f.to_rem(71px);
 
 /* Declaring colors for site elements */
 $bg-color: $light-grayish-blue;
