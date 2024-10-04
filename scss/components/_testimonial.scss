@@ -87,7 +87,8 @@
  font-size: v.$f-size-lg;
  font-weight: v.$f-600;
  line-height: 1.2;
- letter-spacing: 0px;
+ //  letter-spacing: 0px;
+ text-wrap: pretty;
 }
 
 .testimonial__description {
